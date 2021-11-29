@@ -11,12 +11,6 @@ You need to use ReactJs/TypeScript to complete this challenge.
 - Database : `MonogoDB`, `PostgreSQL` or any database
 - (Optional) HTML/CSS framework : `TailwindCSS`
 
-## How to Submission
-
-- Create a public/open repository (Gitlab or Github )
-- Submit link to repository & your personal details using this google form https://forms.gle/iTuhssFuMimVvsnC6
-- Deadline : 10th December at 12:00 pm
-
 ## Requirements : Your users should be able to:
 
 View the optimal layout for the app depending on their device's screen size
