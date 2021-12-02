@@ -1,0 +1,8 @@
+.auth-forms {
+	width: 50%;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+label {
+	align-items: flex-start;
+}
