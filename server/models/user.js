@@ -45,6 +45,7 @@ const userSchema = mongoose.Schema({
     type: Date,
     required: true,
     trim: true,
+    maxlength: 10
   },
   country: {
     type: String,
