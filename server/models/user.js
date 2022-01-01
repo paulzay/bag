@@ -6,12 +6,12 @@ const jwt = require('jsonwebtoken')
 const userSchema = mongoose.Schema({
   firstName: {
     type: String,
-    require: true,
+    required: true,
     trim: true,
   },
   lastName: {
     type: String,
-    require: true,
+    required: true,
     trim: true,
   },
   email: {
@@ -39,6 +39,7 @@ const userSchema = mongoose.Schema({
   },
   phoneNumber: {
     type: String,
+    required: true,
     match: /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/,
   },
   birthDate: {
