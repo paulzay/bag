@@ -2,7 +2,7 @@ import React from 'react'
 
 function SideBar() {
   return (
-    <div>
+    <div className="sidebar">
       <ul>
         <li>MY LIST</li>
         <li>VISITED</li>
